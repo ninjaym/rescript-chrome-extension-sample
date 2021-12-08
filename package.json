@@ -1,0 +1,29 @@
+{
+  "name": "rescript-chrome-extension-sample",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "ym <hi@yaomiao.wang>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "re:build": "rescript",
+    "re:start": "rescript build -w",
+    "re:clean": "rescript clean -with-deps"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ninjaym/rescript-chrome-extension-sample.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@deanc/esbuild-plugin-postcss": "^1.0.2",
+    "autoprefixer": "^10.4.0",
+    "concurrently": "^6.4.0",
+    "esbuild": "^0.14.2",
+    "postcss": "^8.4.4",
+    "rescript": "9.1.4",
+    "tailwindcss": "^2.2.19"
+  }
+}

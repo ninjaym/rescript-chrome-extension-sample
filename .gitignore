@@ -8,3 +8,5 @@ lib
 package-lock.json
 
 .bsb.lock
+
+/public/dist

@@ -7,9 +7,13 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "re:build": "rescript",
-    "re:start": "rescript build -w",
-    "re:clean": "rescript clean -with-deps"
+    "dev": "concurrently --names rescript,esbuild -c green.bold,blue.bold --kill-others npm:compile:watch npm:bundle:watch",
+    "build": "npm run compile && npm run bundle",
+    "compile": "rescript build -verbose -with-deps",
+    "compile:watch": "rescript build -w",
+    "bundle": "NODE_ENV='production' node esbuild.js",
+    "bundle:watch": "node esbuild.js -w",
+    "clean": "rescript clean -with-deps && rimraf public/dist"
   },
   "main": "index.js",
   "repository": {

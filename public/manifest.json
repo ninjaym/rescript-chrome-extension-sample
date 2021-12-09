@@ -9,7 +9,7 @@
     },
     "browser_action": {
         "default_title": "Rescript Chrome Extension Sample",
-        "default_popup": "popup.html"
+        "default_popup": "browser_action.html"
     },
     "content_scripts": [
         {

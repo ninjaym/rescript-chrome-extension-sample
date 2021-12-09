@@ -8,11 +8,13 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="React chrome extension with esbuild" />
     <title>Rescript Chrome Extension Sample</title>
-    <script defer src="dist/popup.js"></script>
+    <link rel="stylesheet" href="dist/browserAction.tailwind.css" type="text/css" />
+    <link rel="stylesheet" href="dist/browserAction.css" type="text/css" />
+    <script defer src="dist/browserAction.js"></script>
 </head>
 
-<body style="width: 400px">
-    <div id="root">Popup</div>
+<body style="width: 300px">
+    <div id="root"></div>
 </body>
 
 </html>

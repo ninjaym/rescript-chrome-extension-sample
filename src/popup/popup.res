@@ -1,1 +1,1 @@
-Js.log("popup2 2")
+Js.log("popup loaded!")

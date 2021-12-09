@@ -1,1 +1,1 @@
-Js.log("background")
+Js.log("background loaded!")

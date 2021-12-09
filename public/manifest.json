@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Rescript Chrome Extension Sample",
+    "version": "0.0.1",
+    "author": "ym <hi@yaomiao.wang>",
+    "description": "",
+    "background": {
+        "scripts": ["dist/background.js", "hot-reload.js"]
+    }
+}

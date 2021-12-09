@@ -10,5 +10,12 @@
     "browser_action": {
         "default_title": "Rescript Chrome Extension Sample",
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*"],
+            "js": ["dist/content.js"],
+            "run_at": "document_end"
+        }
+    ]
 }

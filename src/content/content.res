@@ -1,1 +1,1 @@
-Js.log("content")
+Js.log("content script laoded!")

@@ -1,6 +1,6 @@
 module.exports = {
     mode: "jit",
-    content: ["./public/**/*.html", "./src/**/*.svelte"],
+    content: ["./public/browser_action.html", "./src/browserAction/**/*.svelte"],
     darkMode: "media",
     theme: {
         extend: {},
